@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGS</title>
+</head>
+<style>
+    body{
+        padding: 0 120px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .navbar .menu-kiri{
+        background-color: aqua;
+        color: #fff;
+        padding: 20px;
+        border-radius: 0 20px 0 20px;
+    }
+    .navbar .menu-tengah{
+        display: flex;
+        list-style: none;
+        gap: 40px;
+    }
+    .navbar .menu-tengah a{
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    .navbar .menu-tengah a.active{
+        font-weight: bold;
+    }
+    .navbar .menu-kanan{
+        background-color: aquamarine;
+        color: #fff;
+        padding: 20px;
+        border-radius: 20px 0 20px 0;
+    }
+    .hero{
+        display: flex;
+        margin-top: 20px;
+    }
+    .box-1{
+        width: 50%;
+        background: lightblue;
+        height: 400px;
+        line-height: 400px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-right: 5px;
+        font-size: 28px;
+    }
+    .box-2{
+        width: 50%;
+        background: lightgreen;
+        height: 400px;
+        line-height: 400px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 28px;
+    }
+    .footer{
+        background: lightcoral;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 21px;
+        padding: 20px;
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+</style>
+<body>
+    <div class="navbar">
+        <div class="menu-kiri">
+            Menu Kiri
+        </div>
+        <div class="menu-tengah">
+            <li>
+                <a href="" class="active">Menu 1</a>
+            </li>
+            <li>
+                <a href="">Menu 2</a>
+            </li>
+            <li>
+                <a href="">Menu 3</a>
+            </li>
+        </div>
+        <div class="menu-kanan">
+            Menu Kanan
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="box-1">
+            Box 1
+        </div>
+        <div class="box-2">
+            Box 2
+        </div>
+    </div>
+    <div class="footer">
+        Copyright by - Alep Zulkarnain - X PPLG
+    </div>
+</body>
+</html>
